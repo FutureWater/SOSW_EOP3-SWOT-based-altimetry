@@ -11,8 +11,38 @@ Check out the project website at [sos-water.eu](https://sos-water.eu/) for more 
 
 ## How to use
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FutureWater/SOSW_EOP3-SWOT-based-altimetry/main?labpath=SWOT-based_altimetry.ipynb)
+
 This file can be run in any instance compatible with Jupyter Notebook, the tool queries online databases and the Hydrocron API, which repackages hydrology datasets from the SWOT satellite into formats that make time-series analysis easier. No further download of SWOT data is necessary. Steps to run the notebook:
 
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Python
+
+- Jupyter Notebook
+
+### Installation
+
+1. Clone the repository or download the Jupyter Notebook file `SWOT-based_altimetry.ipynb`
+
+2. Open a terminal and navigate to the directory where the notebook is located
+
+3. Install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Launch Jupyter Notebook and open the file from the interface
+
+   ```bash
+   jupyter notebook
+
+5. Follow the instructions in the notebook to run the code cells
+
+
+Alternatively, you can use the Binder app link above to run the notebook directly.
 
 
 ## Technical Notes
